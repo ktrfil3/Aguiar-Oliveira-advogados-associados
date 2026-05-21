@@ -22,8 +22,8 @@
 }
 
 .menu-logo a {
-  font-family: "PP Monument Extended";
-  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -0.02em;
@@ -162,7 +162,7 @@
   gap: 1em;
 }
 
-.menu-col > div {
+.menu-col>div {
   flex: 1;
 }
 

@@ -63,6 +63,7 @@ a {
   text-decoration: none;
   color: #fff;
   line-height: 150%;
+
 }
 
 span {
@@ -209,7 +210,8 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2em;
-  align-items: stretch; /* Ensures all grid cards take the maximum height in their row */
+  align-items: stretch;
+  /* Ensures all grid cards take the maximum height in their row */
 }
 
 .review-card {
@@ -227,11 +229,13 @@ textarea {
 /* Neon Glow Effect on Hover */
 .review-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(6, 4, 240, 0.6); /* Dra. Rivânia's vivid blue accent */
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3), 
-              0 0 25px rgba(6, 4, 240, 0.35), 
-              0 0 50px rgba(6, 4, 240, 0.15);
-  background-color: rgba(6, 4, 240, 0.04); /* Subtle neon background tint */
+  border-color: rgba(6, 4, 240, 0.6);
+  /* Dra. Rivânia's vivid blue accent */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3),
+    0 0 25px rgba(6, 4, 240, 0.35),
+    0 0 50px rgba(6, 4, 240, 0.15);
+  background-color: rgba(6, 4, 240, 0.04);
+  /* Subtle neon background tint */
 }
 
 .review-card-header {
@@ -289,7 +293,8 @@ textarea {
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.85);
   font-style: italic;
-  flex-grow: 1; /* Pushes owner reply section to the bottom */
+  flex-grow: 1;
+  /* Pushes owner reply section to the bottom */
 }
 
 .owner-reply {

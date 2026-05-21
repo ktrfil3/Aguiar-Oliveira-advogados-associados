@@ -17,29 +17,28 @@
   /* Aurora effect container */
 }
 
-/* Aurora animated gradient */
 .hero-aurora {
   position: absolute;
   top: -30%;
   left: -50%;
   width: 200%;
   height: 70%;
-  background: linear-gradient(
+  background: repeating-linear-gradient(
     120deg,
     rgba(6,4,240,0.15) 0%,
-    rgba(6,4,240,0.05) 50%,
-    rgba(6,4,240,0.15) 100%
+    rgba(6,4,240,0.05) 25%,
+    rgba(6,4,240,0.15) 50%
   );
+  background-size: 200% 100%;
   filter: blur(40px);
   pointer-events: none;
-  animation: auroraWave 12s linear infinite;
+  animation: auroraMove 15s linear infinite;
   z-index: 0;
 }
 
-@keyframes auroraWave {
-  0% { transform: translateX(-25%); }
-  50% { transform: translateX(25%); }
-  100% { transform: translateX(-25%); }
+@keyframes auroraMove {
+  from { background-position: 0% 0%; }
+  to { background-position: 100% 0%; }
 }
 
 /* Gradient overlay at bottom */
