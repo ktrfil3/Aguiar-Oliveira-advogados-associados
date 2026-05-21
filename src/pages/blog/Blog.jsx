@@ -5,7 +5,7 @@ import { ArrowRight } from "@phosphor-icons/react";
 import MagneticButton from "../../components/magneticbutton/MagneticButton";
 import { useLanguage } from "../../context/LanguageContext";
 
-import "./blog.css";
+import "./Blog.css";
 
 const Blog = () => {
   const { t, language } = useLanguage();
