@@ -1,0 +1,276 @@
+.contact.page {
+  width: 100%;
+}
+
+.contact.page .container {
+  width: 80%;
+}
+
+.contact-hero {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-hero h1 {
+  padding-top: 2.5em;
+}
+
+.contact-row {
+  width: 100%;
+  display: flex;
+}
+
+.contact-row .contact-col:nth-child(1) {
+  flex: 1.5;
+}
+
+.contact-row .contact-col:nth-child(2) {
+  flex: 4;
+}
+
+.contact-col {
+  padding: 1em;
+}
+
+.contact-col h1 {
+  font-family: "Wremena";
+  font-size: 70px;
+  text-transform: none;
+  letter-spacing: 0 !important;
+}
+
+.contact-col h1 span {
+  text-transform: none;
+  letter-spacing: 0 !important;
+  font-weight: 400;
+}
+
+.contact.page section {
+  padding-top: 2em;
+}
+
+.contact-form .contact-row:nth-child(1) .contact-col:nth-child(1) {
+  padding-top: 2.25em;
+}
+
+.contact-subscribe h3 {
+  margin-bottom: 0.5em;
+}
+
+.contact-subscribe .input {
+  margin-top: 1em;
+}
+
+section.contact-socials {
+  padding-bottom: 4em;
+}
+
+.contact-social-link p a {
+  font-size: 36px;
+}
+
+/* Detailed List */
+.contact-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin: 2em 0;
+}
+
+.contact-detail-item {
+  display: flex;
+  gap: 1em;
+  align-items: flex-start;
+}
+
+.contact-detail-item h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.contact-detail-item p {
+  font-family: "Wremena", serif;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #fff;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  background-color: #25d366;
+  color: #fff;
+  padding: 0.85em 1.75em;
+  border-radius: 2em;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.2);
+}
+
+.whatsapp-btn-contact:hover {
+  background-color: #fff;
+  color: #25d366;
+  transform: translateY(-2px);
+}
+
+/* Map widget */
+.contact-map-container {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Review Styles */
+.reviews-score-block {
+  margin-top: 1.5em;
+}
+
+.reviews-score-block h3 {
+  font-family: "Rosseta", serif;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1;
+  color: #fff;
+  margin: 0;
+}
+
+.reviews-score-block .stars-wrapper {
+  display: flex;
+  gap: 4px;
+  margin: 0.5em 0;
+}
+
+.reviews-score-block p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.4;
+}
+
+.reviews-vertical-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.review-item-card {
+  background-color: var(--color-bg-light);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.75em;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.review-item-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.review-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.85em;
+  margin-bottom: 1em;
+}
+
+.reviewer-avatar-small {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.review-meta h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.review-meta span {
+  font-family: "Inter", sans-serif;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+}
+
+.review-stars-right {
+  margin-left: auto;
+  display: flex;
+  gap: 2px;
+}
+
+.review-item-card p {
+  font-family: "Wremena", serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+}
+
+.review-reply-block {
+  margin-top: 1em;
+  padding-top: 0.75em;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+}
+
+.review-reply-block h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.review-reply-block p {
+  font-family: "Wremena", serif;
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.5);
+  font-style: normal;
+}
+
+@media (max-width: 900px) {
+  .contact.page .container {
+    width: 100%;
+  }
+
+  .contact-col h1 {
+    font-size: 50px;
+  }
+
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .contact-col {
+    padding: 1em 0;
+  }
+
+  .contact-social-link p a {
+    font-size: 24px;
+  }
+}
